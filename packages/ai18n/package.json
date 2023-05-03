@@ -1,0 +1,41 @@
+{
+	"name": "@jacoblincool/ai18n",
+	"description": "I18n Automation.",
+	"version": "0.0.0",
+	"author": "JacobLinCool <jacob@csie.cool> (https://jacoblin.cool)",
+	"license": "MIT",
+	"keywords": [],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"bin": {
+		"ai18n": "dist/ai18n.js"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"start": "tsx src/ai18n.ts",
+		"build": "tsup",
+		"build:docs": "typedoc --out docs src"
+	},
+	"dependencies": {
+		"commander": "^10.0.1",
+		"debug": "^4.3.4",
+		"dotenv": "^16.0.3",
+		"openai": "^3.2.1"
+	},
+	"devDependencies": {
+		"@types/debug": "^4.1.7",
+		"tsup": "^6.7.0",
+		"typedoc": "^0.24.6",
+		"typescript": "^5.0.4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/JacobLinCool/ai18n.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JacobLinCool/ai18n/issues"
+	},
+	"homepage": "https://jacoblincool.github.io/ai18n"
+}
