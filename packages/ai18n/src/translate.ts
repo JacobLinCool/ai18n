@@ -7,7 +7,7 @@ const DEFAULT_TEMPLATE: ChatCompletionRequestMessage[] = [
 	{
 		role: "user",
 		content:
-			"I want you to act as an professional translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text. I want you to reply beautiful, elegant, upper level words and sentences. Keep the meaning and the structure same. I want you to only reply the correction, the improvements and nothing else, do not write explanations.",
+			"I want you to act as an professional translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text. I want you to reply beautiful, elegant, upper level words and sentences. Keep the meaning and the structure same. Keep code blocks untranslated. I want you to only reply the correction, the improvements and nothing else, do not write explanations.",
 	},
 	{
 		role: "assistant",
