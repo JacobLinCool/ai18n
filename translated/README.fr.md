@@ -2,6 +2,8 @@
 
 Automatisez la localisation de documents en utilisant le GPT-3.5-Turbo (ChatGPT) d'OpenAI.
 
+
+
 ## Installation
 
 ```sh
@@ -20,14 +22,14 @@ ai18n --help
 ```
 
 ```sh
-ai18n [options] <fichiers...>
+ai18n [options] <files...>
 ```
 
 ### Options
 
 - `-V`, `--version`: Afficher le numéro de version de l'outil CLI ai18n.
-- `--to <langue>`: Spécifiez la langue cible pour la traduction. Il peut s'agir d'une seule langue ou d'une liste de langues séparées par des virgules. Par défaut, aucune langue cible n'est spécifiée.
-- `--out <répertoire>`: Spécifiez le répertoire de sortie pour les fichiers traduits. Par défaut, les fichiers de sortie seront enregistrés dans un répertoire appelé "translated" dans le répertoire de travail actuel.
+- `--to <language>`: Spécifiez la langue cible pour la traduction. Il peut s'agir d'une seule langue ou d'une liste de plusieurs langues séparées par des virgules. Par défaut, aucune langue cible n'est spécifiée.
+- `--out <directory>`: Spécifiez le répertoire de sortie pour les fichiers traduits. Par défaut, les fichiers de sortie seront enregistrés dans un répertoire appelé "translated" dans le répertoire de travail actuel.
 - `--inline`: Activez la traduction en ligne. Par défaut, cette option est désactivée.
 - `-h`, `--help`: Afficher l'aide pour l'outil CLI ai18n.
 
@@ -35,7 +37,7 @@ ai18n [options] <fichiers...>
 
 Si vous activez le mode `inline`, le texte traduit sera inséré dans le fichier et aucun nouveau fichier ne sera créé.
 
-Par exemple, si vous avez un fichier appelé `README.md` avec le contenu suivant :
+Par exemple, si vous avez un fichier appelé `README.md` avec le contenu suivant:
 
 ```md
 # ai18n
@@ -45,13 +47,13 @@ Automate Document I18n by Leveraging OpenAI's GPT-3.5-Turbo (ChatGPT)
 <!-- ai18n [zh-tw] --><!-- /ai18n [zh-tw] -->
 ```
 
-Après avoir exécuté la commande suivante :
+Après avoir exécuté la commande suivante:
 
 ```sh
 ai18n --to zh-tw --inline README.md
 ```
 
-Le contenu de `README.md` sera modifié comme suit :
+Le contenu de `README.md` sera modifié comme suit:
 
 ```md
 # ai18n

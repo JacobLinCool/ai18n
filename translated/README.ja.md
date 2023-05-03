@@ -1,6 +1,6 @@
 # ai18n
 
-OpenAIのGPT-3.5-Turbo（ChatGPT）を活用して、ドキュメントI18nを自動化する。
+OpenAIのGPT-3.5-Turbo（ChatGPT）を活用して、ドキュメントのI18nを自動化する。
 
 ## インストール
 
@@ -26,8 +26,8 @@ ai18n [options] <files...>
 ### オプション
 
 - `-V`、`--version`：ai18n CLIツールのバージョン番号を出力します。
-- `--to <language>`：翻訳の対象言語を指定します。これは、単一の言語または複数の言語のカンマ区切りリストで指定できます。デフォルトでは、対象言語は指定されていません。
-- `--out <directory>`：翻訳されたファイルの出力ディレクトリを指定します。デフォルトでは、出力ファイルは、カレントワーキングディレクトリにある「translated」という名前のディレクトリに保存されます。
+- `--to <language>`：翻訳の対象言語を指定します。これは単一の言語または複数の言語のカンマ区切りリストで指定できます。デフォルトでは、対象言語は指定されていません。
+- `--out <directory>`：翻訳されたファイルの出力ディレクトリを指定します。デフォルトでは、出力ファイルはカレントディレクトリにある「translated」という名前のディレクトリに保存されます。
 - `--inline`：インライン翻訳を有効にします。デフォルトでは、このオプションは無効になっています。
 - `-h`、`--help`：ai18n CLIツールのヘルプを表示します。
 
@@ -45,7 +45,7 @@ Automate Document I18n by Leveraging OpenAI's GPT-3.5-Turbo (ChatGPT)
 <!-- ai18n [zh-tw] --><!-- /ai18n [zh-tw] -->
 ```
 
-次のコマンドを実行した後：
+次のコマンドを実行すると：
 
 ```sh
 ai18n --to zh-tw --inline README.md
@@ -61,6 +61,6 @@ Automate Document I18n by Leveraging OpenAI's GPT-3.5-Turbo (ChatGPT)
 <!-- ai18n [zh-tw] -->
 # ai18n
 
-OpenAIのGPT-3.5-Turbo（ChatGPT）を活用して、ドキュメントI18nを自動化する。
+OpenAIのGPT-3.5-Turbo（ChatGPT）を活用して、ドキュメントのI18nを自動化する。
 <!-- /ai18n [zh-tw] -->
 ```

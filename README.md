@@ -5,7 +5,9 @@ Automate Document I18n by Leveraging OpenAI's GPT-3.5-Turbo (ChatGPT)
 <!-- ai18n [ignore] -->
 <div align="center">
 
-[正體中文](./translated/README.zh-TW.md) | [简体中文](./translated/README.zh-CN.md) | [日本語](./translated/README.ja.md) | [Français](./translated/README.fr.md)
+[正體中文](./translated/README.zh-TW.md) | [简体中文](./translated/README.zh-CN.md) | [日本語](./translated/README.ja.md) | [Français](./translated/README.fr.md) | [Deutsch](./translated/README.de.md) | [Español](./translated/README.es.md) | [한국어](./translated/README.ko.md)
+
+^ by `ai18n --to zh-TW --to zh-CN --to ja --to fr --to de --to es --to ko README.md`
 
 </div>
 <!-- /ai18n [ignore] -->

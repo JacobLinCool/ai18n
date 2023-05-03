@@ -1,6 +1,6 @@
 # ai18n
 
-通过利用 OpenAI 的 GPT-3.5-Turbo (ChatGPT) 自动化文档 I18n。
+利用 OpenAI 的 GPT-3.5-Turbo (ChatGPT) 自动化文档国际化。
 
 ## 安装
 
@@ -10,7 +10,7 @@ pnpm i -g @jacoblincool/ai18n
 
 > 使用 `npm` 或 `yarn` 安装也可以。
 
-## 用法
+## 使用
 
 > 首先需要设置 `OPENAI_API_KEY` 环境变量。
 
@@ -26,10 +26,10 @@ ai18n [options] <files...>
 ### 选项
 
 - `-V`, `--version`: 输出 ai18n CLI 工具的版本号。
-- `--to <language>`: 指定翻译的目标语言。这可以是单个语言或多个语言的逗号分隔列表。默认情况下，不指定目标语言。
+- `--to <language>`: 指定翻译的目标语言。可以是单个语言或多个语言的逗号分隔列表。默认情况下，不指定目标语言。
 - `--out <directory>`: 指定翻译文件的输出目录。默认情况下，输出文件将保存在当前工作目录中名为“translated”的目录中。
 - `--inline`: 启用内联翻译。默认情况下，此选项已禁用。
-- `-h`, `--help`: 显示 ai18n CLI 工具的帮助。
+- `-h`, `--help`: 显示 ai18n CLI 工具的帮助信息。
 
 ### `inline` 模式
 
@@ -56,7 +56,7 @@ ai18n --to zh-tw --inline README.md
 ```md
 # ai18n
 
-Automate Document I18n by Leveraging OpenAI's GPT-3.5-Turbo (ChatGPT)
+透过利用 OpenAI 的 GPT-3.5-Turbo (ChatGPT) 来自动化文件国际化。
 
 <!-- ai18n [zh-tw] -->
 # ai18n

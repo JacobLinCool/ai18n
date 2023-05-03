@@ -15,7 +15,7 @@ pnpm i -g @jacoblincool/ai18n
 > 首先，您需要設置 `OPENAI_API_KEY` 環境變量。
 
 ```sh
-# 顯示幫助
+# 顯示幫助信息
 ai18n --help
 ```
 
@@ -33,7 +33,7 @@ ai18n [options] <files...>
 
 ### `inline` 模式
 
-如果啟用了 `inline` 模式，翻譯的文本將插入到文件中，並且不會創建新文件。
+如果啟用 `inline` 模式，翻譯的文本將插入到文件中，並且不會創建新文件。
 
 例如，如果您有一個名為 `README.md` 的文件，其內容如下：
 
