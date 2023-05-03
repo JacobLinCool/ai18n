@@ -1,5 +1,11 @@
 # @jacoblincool/ai18n
 
+## 1.1.0
+
+### Minor Changes
+
+-   [`faf4a4a`](https://github.com/JacobLinCool/ai18n/commit/faf4a4a8387f6b300b7bb93389925217a3130583) Thanks [@JacobLinCool](https://github.com/JacobLinCool)! - Add subdir mode
+
 ## 1.0.0
 
 ### Major Changes
