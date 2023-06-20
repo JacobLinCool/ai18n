@@ -19,7 +19,7 @@
 		"build:docs": "typedoc --out docs src"
 	},
 	"dependencies": {
-		"commander": "^10.0.1",
+		"commander": "^11.0.0",
 		"debug": "^4.3.4",
 		"dotenv": "^16.0.3",
 		"openai": "^3.2.1"
